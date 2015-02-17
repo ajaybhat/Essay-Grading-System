@@ -28,6 +28,12 @@
             <version>3.5.0</version>
         </dependency>
         <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.5.0</version>
+            <classifier>models</classifier>
+        </dependency>
+        <dependency>
             <groupId>org.apache.opennlp</groupId>
             <artifactId>opennlp-tools</artifactId>
             <version>1.5.3</version>
@@ -87,7 +93,13 @@
             <artifactId>colt</artifactId>
             <version>1.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.addjars-maven-plugin</groupId>
+            <artifactId>addjars-maven-plugin</artifactId>
+            <version>1.0.5</version>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -96,6 +108,7 @@
                 <version>1.0.5</version>
                 <executions>
                     <execution>
+                        <phase>compile</phase>
                         <goals>
                             <goal>add-jars</goal>
                         </goals>

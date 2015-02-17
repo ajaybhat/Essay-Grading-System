@@ -1,0 +1,30 @@
+@relation essaygrading
+
+@attribute char_count numeric
+@attribute word_count numeric
+@attribute misspelled numeric
+@attribute avg_syllable_word numeric
+@attribute avg_syllable_sentence numeric
+@attribute difficult numeric
+@attribute readability numeric
+@attribute bigramTypeTokenRatio numeric
+@attribute nDifferentBiGrams numeric
+@attribute nUnexpectedBigrams numeric
+@attribute trigramTypeTokenRatio numeric
+@attribute nDifferentTriGrams numeric
+@attribute nUnexpectedTrigrams numeric
+@attribute positiveMeasure numeric
+@attribute negativeMeasure numeric
+@attribute sentenceCount numeric
+@attribute meanSentenceLength numeric
+@attribute determiners numeric
+@attribute prepositions numeric
+@attribute adjectives numeric
+@attribute nouns numeric
+@attribute properNouns numeric
+@attribute pronouns numeric
+@attribute verbs numeric
+@attribute whwords numeric
+@attribute score numeric
+
+@data
